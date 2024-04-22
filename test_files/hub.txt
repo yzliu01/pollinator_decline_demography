@@ -1,0 +1,6 @@
+hub hub_Sp_3
+shortLabel hub_And_mar
+longLabel Bees And_mar
+genomesFile genomes.txt
+email yuanzhen.liu2@gmail.com
+descriptionUrl description.html
