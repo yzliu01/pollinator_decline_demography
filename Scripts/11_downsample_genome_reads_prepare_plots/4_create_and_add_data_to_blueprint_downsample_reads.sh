@@ -82,7 +82,6 @@ for i in {1..50};do
         sfs4=`cat ./templates/"$species"_dipS.1_3_5_7_10x.P_01_02_03_04_05_06_07_08_09_10.sfs.blueprint.txt | awk -F " " -v var=$i 'FNR==var {$NF=$(NF-1)="";print}' | sed 's/[[:blank:]]*$//'`
         ## issue: sfs4=`grep "$sample_size" $sfs_20_80_200_400 | awk -F "\t" -v var=$i 'FNR==var {$NF=$(NF-1)=""}1' | sed 's/[[:blank:]]*$//'`
         ## remove excess space
-        ## https://unix.stackexchange.com/questions/102008/how-do-i-trim-leading-and-trailing-whitespace-from-each-line-of-some-output
         sed -i -e "5s/xx/$sfs1/" -e "7s/BB/$sfs4/" "$sfs3"
         echo "editing called site (xx), pop_sfs: $sfs3"
 
