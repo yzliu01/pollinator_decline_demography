@@ -78,7 +78,7 @@ for i in {1..50};do
         
         ## shuf        
         sfs1=`cat ./templates/"$species"_number_called_sites_shuf_across_genome.txt | awk -F " " -v var=$i 'FNR==var {print $NF}'`
-        
+ 
         ## blueprint file names in last column; dir of blueprint files
         sfs2=`cat ./templates/"$species"_dipS.1_3_5_7_10x.P_01_02_03_04_05_06_07_08_09_10.sfs.blueprint.folder_name.list | sed 's/.blueprint//' | awk -F " " -v var=$i 'FNR==var {print $NF}'`
         
