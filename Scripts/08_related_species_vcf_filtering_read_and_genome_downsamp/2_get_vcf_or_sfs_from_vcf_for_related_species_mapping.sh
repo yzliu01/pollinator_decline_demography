@@ -5,9 +5,9 @@
 #SBATCH --array=3,7,12%3
 ##SBATCH --array=1-19%19
 #SBATCH --time=06:00:00
-#SBATCH --error=related_species_get_vcf_ind_DP_1_3x_5x_7x_10.%A_%a.e
-#SBATCH --output=related_species_get_vcf_ind_DP_1_3x_5x_7x_10.%A_%a.o
-#SBATCH --job-name=related_species_get_vcf_ind_DP_1_3x_5x_7x_10
+#SBATCH --error=2_related_species_get_vcf_ind_DP_1_3x_5x_7x_10.%A_%a.e
+#SBATCH --output=2_related_species_get_vcf_ind_DP_1_3x_5x_7x_10.%A_%a.o
+#SBATCH --job-name=2_related_species_get_vcf_ind_DP_1_3x_5x_7x_10
 #SBATCH --mail-type=all
 #SBATCH --mail-user=yuanzhen.liu2@gmail.com
 

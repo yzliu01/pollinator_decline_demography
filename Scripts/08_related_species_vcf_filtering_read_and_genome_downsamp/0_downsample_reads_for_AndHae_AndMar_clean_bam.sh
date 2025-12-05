@@ -7,9 +7,9 @@
 #SBATCH --array=1-2%2
 ##SBATCH --time=00:10:00
 #SBATCH --time=10:30:00
-#SBATCH --error=1_1_downsample_samtools_AndHae_AndMar_sort_marked_bam_clean_index.%A_%a.e
-#SBATCH --output=1_1_downsample_samtools_AndHae_AndMar_sort_marked_bam_clean_index.%A_%a.o
-#SBATCH --job-name=1_1_downsample_samtools_AndHae_AndMar_sort_marked_bam_clean_index
+#SBATCH --error=0_downsample_samtools_AndHae_AndMar_sort_marked_bam_clean_index.%A_%a.e
+#SBATCH --output=0_downsample_samtools_AndHae_AndMar_sort_marked_bam_clean_index.%A_%a.o
+#SBATCH --job-name=0_downsample_samtools_AndHae_AndMar_sort_marked_bam_clean_index
 #SBATCH --mail-type=all #begin,end,fail,all
 #SBATCH --mail-user=yuanzhen.liu2@gmail.com
 

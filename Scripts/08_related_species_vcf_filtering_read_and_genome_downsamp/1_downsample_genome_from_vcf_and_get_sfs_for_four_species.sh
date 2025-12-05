@@ -4,9 +4,9 @@
 #SBATCH --mem 50g
 #SBATCH --array=1%1
 #SBATCH --time=02:00:00
-#SBATCH --error=genome_subset_2025_DP_1x_3x_5x_7x_10x.%A_%a.e
-#SBATCH --output=genome_subset_2025_DP_1x_3x_5x_7x_10x.%A_%a.o
-#SBATCH --job-name=genome_subset_2025_DP_1x_3x_5x_7x_10x
+#SBATCH --error=1_genome_subset_2025_DP_1x_3x_5x_7x_10x.%A_%a.e
+#SBATCH --output=1_genome_subset_2025_DP_1x_3x_5x_7x_10x.%A_%a.o
+#SBATCH --job-name=1_genome_subset_2025_DP_1x_3x_5x_7x_10x
 #SBATCH --mail-type=all
 #SBATCH --mail-user=yuanzhen.liu2@gmail.com
 
